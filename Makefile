@@ -15,6 +15,5 @@ doczip:
 	tar -cvf game.tar college.cc collegemain.cc course.cc college.h course.h tarray.h
 	gzip game.tar
 clean:
-	rm .o game
 	rm -rf html latex
-
+	rm .o game
