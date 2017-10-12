@@ -7,7 +7,12 @@
 		Lab 7		Fall 2014
 	John Dolan			Ohio University 
 ********************************************************************/
-
+/**
+*@file
+*template array class
+*@author Alya ElGamal
+*@date 12 October 2017
+**/
 #include<iostream>
 
 template<class T>

@@ -4,7 +4,12 @@
 //CS 2401
 //10/8/2015
 //********************
-
+/**
+*@file
+*.h for the college.cc class
+*@author Alya ELGamal
+*@date 12 October 2017
+**/
 #include <iostream>
 #include <fstream>
 #include <string>

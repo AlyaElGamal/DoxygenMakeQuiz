@@ -3,6 +3,12 @@
 	course.
 		John Dolan		School of EECS		Summer2013
 **************************************************************************/
+/**
+*@file
+*gets thespecific info about the courses
+*@author Alya ElGamal
+*@date 12 October 2017
+**/
 #include "course.h"
 #include<cstdlib>
 #include<iostream>

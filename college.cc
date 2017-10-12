@@ -1,9 +1,17 @@
+
 //********************
 //Matthew Aberegg
 //Project 3
 //CS 2401
 //10/8/2015
 //********************
+
+/**
+*@file
+*inputs and outputs courses a student took
+*@author Alya ElGamal
+*@date 12 October 2017
+**/
 #include "college.h"
 #include<cstdlib>
 #include<iostream>
@@ -68,7 +76,12 @@ College& College::operator =(const College& other){
 	}
 	return * this;
 }
-
+/**
+@param: course c it's a course object that got added to the array
+@see: set_link()
+@see: data()
+@brief: adds a course to the array that the student has input
+**/
 void College::add(course& c){
 	node * previous;
 	node * cursor;
@@ -107,6 +120,11 @@ void College::add(course& c){
 	}
 }
 
+/**
+*@param coursename the course you want to remove
+*@see get_course_number()
+*@brief removes the course object with the same name as the given parameter
+**/
 void College::remove(std::string coursename){
 	node * previous;	
 	node * cursor;
@@ -129,6 +147,13 @@ void College::remove(std::string coursename){
 }
 }
 
+/**
+*@param outs the ostream to display evrything through
+*@see get_course_number()
+*@see get_grades()
+*@see get_hours()
+*@brief displays the list of classes
+**/
 void College::display(std::ostream& outs){
 	node * ptr;
 	ptr = head;

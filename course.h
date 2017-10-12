@@ -6,7 +6,12 @@
 	point system.
 		John Dolan	School of EECS		Summer 2013
 ************************************************************************/
-
+/**
+*@file
+*.h file for course.cc
+*@author Alya ElGamal
+*@date 12 October 2017
+**/
 #include<iostream>
 #include<string>
 #ifndef COURSE_H

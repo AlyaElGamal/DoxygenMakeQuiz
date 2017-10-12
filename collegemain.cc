@@ -11,7 +11,12 @@
     and the .cc file for the container.
 	John Dolan			Spring 2015
 **********************************************************/
-
+/**
+*@file
+*the main func
+*@author Alya ELGamal
+*@date 12 Otober 2017
+**/
 #include <iostream>
 #include <fstream>
 #include <string>
